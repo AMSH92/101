@@ -7,3 +7,12 @@
 //
 
 import Foundation
+
+struct FeedModel {
+    var textFeed: String?
+    var createdAt: Date?
+    
+    func didFetchData() {
+        
+    }
+}

@@ -1,9 +1,8 @@
 //
 //  UIView+Stacking.swift
-//  video-social
 //
-//  Created by Brian Voong on 4/28/19.
-//  Copyright © 2019 Tieda Wei. All rights reserved.
+//  Created by Abdullah Alsharif on 4/28/19.
+//  Copyright © 2019 Abdullah Alsharif. All rights reserved.
 //
 
 import UIKit

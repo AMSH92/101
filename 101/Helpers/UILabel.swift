@@ -2,8 +2,8 @@
 //  UILabel.swift
 //  SwipeMatchFirestoreLBTA
 //
-//  Created by Brian Voong on 4/26/19.
-//  Copyright © 2019 Brian Voong. All rights reserved.
+//  Created by Abdullah Alsharif on 4/26/19.
+//  Copyright © 2019 Abdullah Alsharif. All rights reserved.
 //
 
 import UIKit

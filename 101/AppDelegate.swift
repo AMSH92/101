@@ -8,15 +8,25 @@
 
 import UIKit
 import CoreData
+import Parse
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
-
+    var window: UIWindow?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        //self.parseConfigrations()
         return true
+    }
+    
+    func parseConfigrations() {
+        let parseConfig = ParseClientConfiguration {
+            $0.applicationId = "BkH364xJxgYm6NoJycu7zfOn5a1E0Atuud8j007x"
+            $0.clientKey = "Oa75NVn3D3dyizFUU8cuoL1lzUrGc4yUMr5RD6Mb"
+            $0.server = "https://parseapi.back4app.com"
+        }
+        Parse.initialize(with: parseConfig)
     }
 
     // MARK: UISceneSession Lifecycle
